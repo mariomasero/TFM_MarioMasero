@@ -36,7 +36,7 @@ Performs data preprocessing, quantile normalization, and differential expression
 Performs exploratory data analysis of raw and normalized LFQ intensity distributions (histograms and abundance summaries).
 
 ### `Scripts/EnrichmentAnalysis.R`
-Performs **Gene Ontology enrichment (GO)** and **Gene Set Enrichment Analysis (GSEA)** using DEPs from both cell lines. Outputs include:
+Performs **Gene Ontology enrichment (GO)** and **Gene Set Enrichment Analysis (GSEA)** using DEPs from both cell lines. 
 
 - `enrichGO` 
 - `gseGO` analyses
