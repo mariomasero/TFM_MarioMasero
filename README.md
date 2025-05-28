@@ -6,11 +6,11 @@ This repository contains the full analytical pipeline used for the identificatio
 
 ## Repository Structure
 
-├── GeneCards/ # Gene annotation outputs (e.g., subcellular location, drugs)
-├── MetaboAnalyst/ # Results from alternative statistical analysis with MetaboAnalyst
-├── Scripts/ # All R scripts used in the workflow
-├── ResultadosProteomica.csv# Input proteomic expression matrix
-└── README.md # Project description and usage instructions
+├── GeneCards/               # Gene annotation outputs (e.g., subcellular location, drugs)  
+├── MetaboAnalyst/           # Results from alternative statistical analysis with MetaboAnalyst  
+├── Scripts/                 # All R scripts used in the workflow  
+├── ResultadosProteomica.csv# Input proteomic expression matrix  
+└── README.md                # Project description and usage instructions
 
 ## Required Software and Packages
 
