@@ -9,7 +9,6 @@ This repository contains the full analytical pipeline used for the identificatio
 ├── GeneCards/               # Gene annotation outputs (e.g., subcellular location, drugs)  
 ├── MetaboAnalyst/           # Results from alternative statistical analysis with MetaboAnalyst  
 ├── Scripts/                 # All R scripts used in the workflow  
-├── ResultadosProteomica.csv# Input proteomic expression matrix  
 └── README.md                # Project description and usage instructions
 
 ## Required Software and Packages
@@ -51,10 +50,6 @@ Retrieves and integrates subcellular localization data from:
 
 ### `Scripts/Targeteable.R`
 Identifies **targetable proteins** (approved or investigational drugs) among the membrane-associated DEPs. Outputs:
-
-## Input File
-
-- `ResultadosProteomica.csv`: Raw expression matrix. Columns 5–14 correspond to A549 samples, columns 15–24 to H2009. Must include a `Gene ID` or `Protein Accession` column.
 
 ## Notes
 
