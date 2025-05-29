@@ -55,5 +55,3 @@ Identifies **targetable proteins** (approved or investigational drugs) among the
 
 - Some scripts use custom fixes (e.g., `hpaDownload_fixed`) due to outdated URLs in the HPAanalyze package.
 - All plots are saved in the `Images/` folder (create manually if missing).
-
-- `ResultadosProteomica.csv`: Raw expression matrix. Columns 5–14 correspond to A549 samples, columns 15–24 to H2009. Must include a `Gene ID` or `Protein Accession` column.
